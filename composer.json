@@ -1,0 +1,34 @@
+{
+  "name": "pegro/PiFotomat",
+  "description": "Automated taking pictures with Pi-like devices",
+  "minimum-stability": "dev",
+  "license": "GPL-3",
+  "authors": [
+    {
+      "name": "Peter Große",
+      "email": "pegro@friiks.de"
+    }
+  ],
+  "autoload": {
+        "psr-4": { "PiFotomat\\": "" }
+  },
+  "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repository.fem.tu-ilmenau.de/php"
+        },
+        {
+            "type": "composer",
+            "url": "https://pegro.friiks.de/php"
+        }
+  ],
+  "require": {
+    "ext-gd" : "*",
+    "fem/spof": "dev-master",
+    "cvuorinen/raspicam-php": "dev-symphony-process",
+    "symfony/process": "~v3.4.14",
+    "components/font-awesome": "^4.7",
+    "components/jquery": "^3.3.1",
+    "pegro/bootstrap-cyborg": "v3.x-dev"
+  }
+}

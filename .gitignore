@@ -1,0 +1,9 @@
+composer.lock
+composer.phar
+components/
+config/local.yml
+log/
+public/css/*
+public/js/*
+tmp/
+vendor/

@@ -1,0 +1,28 @@
+index:
+  pattern:
+  module: portal
+  show: index
+
+log:
+  pattern: log
+  module: portal
+  show: log
+
+settings:
+  pattern: settings/
+  module: settings
+  subroutes:
+    settime:
+      pattern: settime
+      show: settime
+
+browser:
+  pattern: browser/
+  module: browser
+  subroutes:
+    index:
+      pattern: index
+      show: index
+    image:
+      pattern: image/<date>/<image>
+      show: image

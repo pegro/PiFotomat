@@ -1,0 +1,37 @@
+server:
+  path: /pifotomat/
+
+camera:
+  daytime_check_window: 10
+
+min_sleep:
+  day: 3
+  twilight: 5
+  dark: 6
+
+timelapse_interval:
+  day: 10
+  twilight: 20
+  dark: 60
+
+daytime_thresholds:
+  day: 90
+  twilight: 40
+  black: 0
+
+path:
+  root: .
+  timelapse: timelapse
+  filename_prefix: image
+
+log_level:
+  - error
+  - warning
+  - notice
+  - info
+  - debug
+  - dump
+
+tracking:
+  session: false
+  event: false
